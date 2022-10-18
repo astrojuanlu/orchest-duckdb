@@ -1,0 +1,32 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "68d8ada3-fb03-4bbc-8b83-6d7f1d55d745": {
+            "environment": "f5aeab89-be72-44fc-b6b2-96db16a0362e",
+            "file_path": "fetch-data.sh",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20,
+                    80
+                ]
+            },
+            "parameters": {},
+            "title": "Fetch Data",
+            "uuid": "68d8ada3-fb03-4bbc-8b83-6d7f1d55d745"
+        }
+    },
+    "uuid": "44684399-3e73-4234-a720-4b646c05ad35",
+    "version": "1.2.2"
+}
